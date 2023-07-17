@@ -1,0 +1,227 @@
+@charset "UTF-8";
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+    background-color: #4A3B63;
+}
+
+header > h1{
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+header > #menu{
+    width: 92.5vw;
+    margin-left: -8px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #3A1E66;
+    color: white;
+    border-top: 2px solid #2b0e5a;
+}
+
+header > #menu > a{
+    font-size: 15px;
+    margin-right: 10px;
+    text-decoration: none;
+    background-color: #00000000;
+}
+
+header > #menu > a:hover{
+    background-color: #5b2ea1;
+}
+
+#hr1{
+    width: 96vw;
+    margin-left: -8px;
+    margin-top: -2px;
+}
+
+main{
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 5px 10px #0000005d;
+    background-color: #3a1e66;
+    margin-bottom: 40px;
+}
+
+main > p{
+    width: 350px;
+    text-align: center;
+    margin-top: -8px;
+    padding-top: 5px;
+    background-color: #3a1e66;
+    padding-left: 25px;
+}
+
+#p1{
+    padding-top: 20px;
+}
+
+main > #hr2{
+    width: 100px;
+}
+
+main > #sect{
+    background-color: #3a1e66;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+main > #sect > h2, p{
+    background-color: #3a1e66;
+}
+
+main > #sect > #ed, #sk, #xp, #ad{
+    font-size: 20px;
+}
+
+main > #sect > #p-ed2, #p-sk4, #p-xp5{
+    margin-bottom: 30px;
+}
+
+main > #sect > .prg{
+    margin-top: -10px;
+}
+
+main > #sect > #p-ed2, #p-xp2{
+    margin-top: -13px;
+}
+
+main > #sect > #p-xp3 > li,
+main > #sect > #p-xp5 > li{
+    background-color: #3a1e66;
+}
+
+main > #sect > #p-xp4{
+    font-size: 14px;
+}
+
+main > #sect > #p-ad5{
+    padding-bottom: 20px;
+}
+
+strong{
+    background-color: #4a2980;
+}
+
+a{
+    text-decoration: none;
+    background-color: #673aaf;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 20px;
+}
+
+a:hover{
+    background-color: #8248df;
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px){
+    header > #menu{
+        width: 95vw;
+    }
+
+    header > #menu > a{
+        margin-left: 20px;
+    }
+
+    header > #hr1{
+        width: 97.5vw
+    }
+
+    main{
+        width: 600px;
+    }
+
+    main > p{
+        width: 550px;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px){
+    header > h1{
+        font-size: 0px;
+        margin: 30px;
+    }
+
+    header > h1::after{
+        content: "João Pedro de Oliveira Ferreira da Silva";
+        font-size: 1.8rem;
+    }
+
+    header > #menu{
+        width: 96.5vw;
+    }
+
+    header > #menu > #add{
+        color: transparent;
+    }
+
+    header > #menu > #add::after{
+        content: "Additional Information";
+        font-size: 16px;
+        color: white;
+        margin-left: -90px;
+    }
+
+    header > #hr1{
+        width: 98.2vw
+    }
+
+    main{
+        width: 800px;
+    }
+
+    main > p{
+        width: 750px;
+    }
+}
+
+@media screen and (min-width: 1201px){
+    header > h1{
+        font-size: 0px;
+        margin: 30px;
+    }
+
+    header > h1::after{
+        content: "João Pedro de Oliveira Ferreira da Silva";
+        font-size: 1.8rem;
+    }
+
+    header > #menu{
+        width: 97.4vw;
+    }
+
+    header > #menu > a{
+        margin-left: 30px;
+    }
+
+    header > #menu > #add{
+        color: transparent;
+    }
+
+    header > #menu > #add::after{
+        content: "Additional Information";
+        font-size: 16px;
+        color: white;
+        margin-left: -90px;
+    }
+
+    header > #hr1{
+        width: 98.7vw
+    }
+
+    main{
+        width: 1000px;
+    }
+
+    main > p{
+        width: 950px;
+    }
+}
